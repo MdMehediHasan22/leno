@@ -163,7 +163,33 @@ img{
   .hero_button i{
     margin-right: 0.5rem;
   }
-  
+  /* Testimonials */
+  .testimonials {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .testimonials_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonials_card{
+    padding: 0,3rem;
+  }
+  .testimonials_img img{
+    width: 96px;
+    height: 96px;
+    border-radius: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1.5rem;
+  }
+  .testimonials_card-text{
+    font-style: italic;
+    margin-bottom: 1.5rem;
+  }
   @media(max-width:768px){
     .navbar_menu{
         display: none;
