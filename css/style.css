@@ -474,6 +474,31 @@ img{
   line-height: 1.6;
   margin-bottom: 2rem;
 }
+
+/* Details Icons */
+.details_icons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+  gap: 2rem;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.details_icons i {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.details_icons-amount {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.details_icons-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
 @media (max-width: 992px) {
   /* Hero */
   .hero {
